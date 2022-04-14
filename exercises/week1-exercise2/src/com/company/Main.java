@@ -8,9 +8,11 @@ public class Main {
 	    Requirements:
 	    - use Scanner to get user input
 	    - use control-flow statements to determine the winner and print it out
-	    - allow players to repeatedly play many games
-	    - must make use of at least one class
+	    - allow user to repeatedly play games
+	    - must create at least one class
 	    - Make your own Git Repo and paste the link in the excel sheet.
+	    - have the computer randomly pick a an option ("rock", "paper", or "scissors")
+	    - Use this link https://www.codegrepper.com/code-examples/java/how+to+select+a+random+element+from+an+array+in+java for assistance with picking a random element from an array
 	    Stretch Goals:
 	    - allow players to enter their name for a more personalized experience
 	    - keep track of score
