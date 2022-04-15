@@ -5,9 +5,16 @@ import java.util.Scanner;
 public class RockPaperScissors {
     public static void main(String[] args) {
 
-        Scanner name = new Scanner(System.in);
-        System.out.println("What is your name?");
-        String yourName = name.next();
+        System.out.println(" ");
+//        Scanner name = new Scanner(System.in);
+//        System.out.println("What is your name?");
+//        String yourName = name.next();
+
+        ComputerPlayer ai = new ComputerPlayer();
+
+        HumanPlayer you = new HumanPlayer();
+
+        String yourName = you.name;
 
         int yourScore = 0;
         int aiScore = 0;
@@ -15,9 +22,6 @@ public class RockPaperScissors {
         String s1;
         Scanner again = new Scanner(System.in);
         do {
-            ComputerPlayer ai = new ComputerPlayer();
-
-            HumanPlayer you = new HumanPlayer();
 
             String choice = you.pick();
             String aiChoice = ai.advancedAiSubroutines();
@@ -82,6 +86,6 @@ public class RockPaperScissors {
 
 
         }while (s1.equals("y"));
-        System.out.println(" ");
+
     }
 }

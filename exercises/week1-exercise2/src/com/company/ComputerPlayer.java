@@ -17,4 +17,14 @@ public class ComputerPlayer {
 
         return aiChoice;
     }
+
+    int advancedAiSubroutinesTTT() {
+
+        Random ttt = new Random();
+
+        //picks a random move
+        int randomPick = ttt.nextInt(9);
+
+        return randomPick;
+    }
 }
